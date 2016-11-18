@@ -7,7 +7,6 @@ import java.util.Scanner;
  * @author dedged
  */
 public class Shapes1 {
-
     public static void main(String[] args) {
         // Variable storing the users' choice
         Scanner userInputSelection = new Scanner(System.in);
@@ -20,7 +19,7 @@ public class Shapes1 {
         System.out.println("Wybierz co wyrysować: ");
         System.out.println(" 1) Pusty kwadrat");
         System.out.println(" 2) Trójkąty...");
-        System.out.println(" 3) Flagi... // TOOD");
+        // TODO System.out.println(" 3) Flagi... ");
         System.out.println();
         System.out.print("Twój wybór: ");
         InputSelection = userInputSelection.nextInt(); // Get users choice
@@ -28,12 +27,12 @@ public class Shapes1 {
         switch (InputSelection) {
             case 1: // Hollow square
                 System.out.print("Wpisz długość boku kwadratu: ");
-                width = userWidth.nextInt();
+                width = userWidth.nextInt(); // Set squares' size
                 System.out.println();
 
                 hollowSquare(width); // Draw the square
                 break;
-
+                
             case 2: // Triangles
                 System.out.println();
                 System.out.println("Rodzaj trójkąta: ");
@@ -53,7 +52,7 @@ public class Shapes1 {
                 triangles(InputSelection, width); // Draw the selected triangle
                 break;
 
-            case 3: // Flags
+            case 3: // Flags, TODO
                 System.out.println();
                 System.out.println("Rodzaj flagi: ");
                 System.out.println(" 1) Polska");
