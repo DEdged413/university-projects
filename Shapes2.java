@@ -22,6 +22,7 @@ public class Shapes2 {
 
         System.out.println("\"Flaga Wielkiej Brytanii\"");
         System.out.print("Podaj szerokość: ");
+        
         width = userWidth.nextInt();
         for (int i = 0; i < width; i++) {
             for (int j = 0; j < width; j++) {
@@ -38,11 +39,11 @@ public class Shapes2 {
 
             }
             System.out.println();
-
         }
 
         System.out.println("Dwa amalowane kwadraty");
         System.out.print("Podaj szerokość: ");
+        
         width = userWidth.nextInt();
         for (int i = 0; i < width; i++) {
             for (int j = 0; j < width; j++) {
@@ -59,7 +60,6 @@ public class Shapes2 {
 
             }
             System.out.println();
-
         }
 
         System.out.println("Cztery zamalowane trójkąty");
