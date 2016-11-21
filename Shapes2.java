@@ -9,7 +9,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author dedged
+ * @author Wojciech Tworzydło, F11
  */
 public class Shapes2 {
 
